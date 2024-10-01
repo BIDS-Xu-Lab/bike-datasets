@@ -28,3 +28,14 @@ The file size of those `.tsv` files should be quite large. If not, usually it's 
 
 # Server
 
+TBD
+
+# File Format
+
+To ensure the loading by frontend, the `.tsv` file must be in the correct format:
+
+```
+pid, title, abstract, journal, year, mesh_terms, color, x, y, size
+```
+
+The `mesh_terms` column should be a list of keywords seperated by `;`, for example: `Infections;Kidney;Kidney Diseases;Microscopy, Electron;Poultry Diseases;Specific Pathogen-Free Organisms`
