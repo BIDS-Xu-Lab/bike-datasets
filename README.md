@@ -28,7 +28,12 @@ The file size of those `.tsv` files should be quite large. If not, usually it's 
 
 # Server
 
-TBD
+```bash
+sudo apt update
+sudo apt install git-lfs
+git lfs --version
+git lfs install
+```
 
 # File Format
 
